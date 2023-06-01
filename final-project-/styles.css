@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif ;
+    
+}
+
+
+
+.background {                /*green background */
+    background-color: rgb(4, 26, 7);
+    width: 1440;
+    height: 400px;
+    display: flex;
+    border-bottom: red 2px solid;
+}
+.link-container {
+    border-bottom: 2px solid black;
+    border-top: 2px solid rgb(189, 17, 17);
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    border-left: 2px red solid;  
+    border-right: red 2px solid;
+    width: 800px;
+    height: 30px;
+    margin-top: 18px;
+}
+.logo {
+    position: relative;
+    margin-top: 15px;
+    left: 150px;
+    bottom: 20px;
+    width: 500px;
+    color: rgb(18, 105, 65); 
+    font-size: 14px;
+}
+.link1,
+.link2,
+.link3 {
+    color: rgb(18, 106, 65);
+}
+.heroo {
+    border-bottom: 2px solid red;
+    color: rgb(18, 105, 65); 
+    margin-top: 100px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
